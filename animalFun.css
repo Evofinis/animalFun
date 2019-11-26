@@ -1,0 +1,105 @@
+.center{
+	margin: auto;
+	width: 50%;
+}
+
+
+#gameBG{
+	margin-top: 12%;
+	height: 600px;
+	width: 1300px;
+	border: 3px solid #3399CC;
+	position: relative;
+	background-color: #CDB99C;
+	text-align: center;		
+}
+
+#mainText{
+
+	font-size: 40pt;
+	margin-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #330000;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+}
+
+.button{
+
+	font-weight: bold;
+	font-size: 20pt;
+	height: 50px;
+	width: 500px;
+	color: #3399CC;
+	background-color: ghostwhite;
+	border: 5px solid #330000;
+}
+
+body{
+	background-image: url("images/bg.png");
+}
+
+img{
+	margin: auto;
+	margin-left: 130px;
+	width: 250px;
+	height: 250px;
+	display: none;
+	position: relative;
+	float: left;
+}
+
+#currentLevel {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 5px;
+	margin-right: 15px;
+	color: cadetblue;
+	font-weight: bold;
+	font-size: 20px;
+	display: none;
+
+}
+
+.soundButton{
+	font-weight: bold;
+	font-size: 20pt;
+	height: 50px;
+	width: 500px;
+	color: #3399CC;
+	background-color: ghostwhite;
+	border: 5px solid #330000;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: none;
+}
+
+
+
+#dialog {
+	position: relative;
+	float: left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: palevioletred;
+	font-weight: bolder;
+	background-color: ghostwhite;
+
+
+}
+
+#dialog2 {
+	position: relative;
+	float: left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: palevioletred;
+	font-weight: bolder;
+	background-color: ghostwhite;
+
+
+}
+
+.ui-dialog-titlebar {
+	display: none;
+}/* CSS Document */
+

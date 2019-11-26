@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Animal Pro</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+
+
+<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="animalFun.css">
+
+</head>
+
+<body>
+	
+	<div class = "center" id="gameBG">
+		<p id="currentLevel">Level</p> 
+		<p id="mainText">Select the correct animal as many times as you can!</p>
+		
+		
+		<!-- This is the initial start button !-->
+		<p><button class="button" id="start">Start</button></p>
+		
+		<!-- These are buttons for different levels of the game !-->
+		<p><button class="soundButton" id="play-sound">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound2">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound3">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound4">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound5">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound6">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound7">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound8">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound9">Play Sound</button></p>
+		<p><button class="soundButton" id="play-sound10">Play Sound</button></p>
+		
+		<br><br>
+		
+		<!-- This is the start of my images, I've imported them under different IDs based on level -->
+		
+		<!-- Level 1 image imports -->
+			<img src="images/cow.png" id="cowimg"> 
+			<img src="images/pig.png" id="pigimg">
+			<img src="images/horse.png" id="lv1horseimg">
+			
+		<!-- Level 2 image imports -->
+			<img src="images/dog.gif" id="dogimg">	
+			<img src="images/horse.png" id="lv2horseimg">
+			<img src="images/cat.png" id="catimg">
+				
+		<!-- Level 3 image imports -->
+			<img src="images/cow.png" id="lv3cowimg"> 
+			<img src="images/pig.png" id="lv3pigimg">
+			<img src="images/dog.gif" id="lv3dogimg">	
+		
+		<!-- Level 4 image imports -->
+			<img src="images/rooster.png" id="roosterimg">
+			<img src="images/bear.png" id="bearimg">
+			<img src="images/humbird.png" id="humbirdimg">
+		
+		<!-- Level 5 image imports -->	
+			<img src="images/cat.png" id="lv5catimg">
+			<img src="images/monkey.png" id="monkeyimg">
+			<img src="images/fish.png" id="fishimg">
+			
+		<!-- Level 6 image imports -->	
+			<img src="images/monkey.png" id="lv6monkeyimg">
+			<img src="images/ele.png" id="eleimg">
+			<img src="images/dolphin.png" id="dolphinimg">
+			
+		<!-- Level 7 image imports -->
+			<img src="images/ele.png" id="lv7eleimg">
+			<img src="images/bear.png" id="lv7bearimg">
+			<img src="images/rabbit.png" id="rabbitimg">
+				
+		<!-- Level 8 image imports -->	
+			<img src="images/owl.png" id="owlimg">
+			<img src="images/fish.png" id="lv8fishimg">
+			<img src="images/humbird.png" id="lv8humbirdimg">
+	
+		<!-- Level 9 image imports -->	
+			<img src="images/rooster.png" id="lv9roosterimg">
+			<img src="images/goat.png" id="goatimg">
+			<img src="images/pig.png" id="lv9pigimg">
+			
+		<!-- Level 10 image imports -->	
+			<img src="images/lion.png" id="lionimg">
+			<img src="images/duck.png" id="duckimg">
+			<img src="images/giraffe.png" id="giraffeimg">
+			
+		<div id="dialog" style="display:none">
+			Sorry! Wrong animal, please try again.
+		</div>
+		
+		<div id="dialog2" style="display:none">
+			
+		</div>
+			
+			
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="animalFun.js"></script>
+
+</body>
+</html>
